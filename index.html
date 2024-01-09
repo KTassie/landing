@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My landing page</title>
+  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <!-- We need this line below for responsiveness! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <script src="confetti.js"></script>
+  <script> const start = () => {
+    setTimeout(function() {
+        confetti.start()
+    }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+};
+
+const stop = () => {
+    setTimeout(function() {
+        confetti.stop()
+    }, 10000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+};
+start();
+stop();
+
+</script>
+
+<!-- Banner -->
+
+  <!-- <img src="https://wearemarvellous.com/app/uploads/2016/11/love-cheese-banner.jpg" alt="CHEESE" class="banner"> -->
+  <div class="banner" style="background-image: url(https://wearemarvellous.com/app/uploads/2016/11/love-cheese-banner.jpg);">
+    <div class="container">
+      <h1>All about CHEESE</h1>
+      <p>Who the HECK doesn't love CHEESE!?</p>
+      <a href="https://www.thecheesesociety.co.uk/" class="myButton">CHEESE BUTTON!!!</a>
+      </div>
+    </div>
+
+
+<!-- Cards -->
+
+  <div class="container">
+    <h2>How cheese is made</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg" alt="Cow">
+        <h4>MILK</h4>
+        <p>First, you milk a hell of a lot of cows.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://hearttohearthcookery.files.wordpress.com/2016/04/img_0142-001.jpg" alt="Seperating the curds and whey">
+        <h4>SEPERATION</h4>
+        <p>Next up we boil it up and then seperate the curds and whey!</p>
+      </div>
+
+      <div class="card">
+        <img src="https://i.shgcdn.com/803000d4-3b6a-4861-9918-62189c2a2230/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="Cheese on a shelf, aging.">
+        <h4>AGE</h4>
+        <p>Slap that thing on a shelf for a few hundred years!</p>
+      </div>
+
+    </div>
+  </div>
+
+<!-- Fooooooter -->
+  <div class="footer">
+      <p>This website was coded with 🧀 at Le Wagon.</p>
+    </div>
+  </div>
+
+</body>
+</html>
